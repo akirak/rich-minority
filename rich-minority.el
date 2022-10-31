@@ -80,6 +80,10 @@
 ;;; Code:
 (require 'cl-lib)
 
+(defgroup rich-minority nil
+  ""
+  :group 'frames)
+
 (declare-function lm-version "lisp-mnt")
 (defun rm-bug-report ()
   "Opens github issues page in a web browser. Please send any bugs you find.
